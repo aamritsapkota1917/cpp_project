@@ -24,3 +24,4 @@ int main()
     cout << "marks:" << s.marks << endl;
     return 0;
     }
+    
