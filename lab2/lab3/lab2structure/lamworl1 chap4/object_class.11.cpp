@@ -9,15 +9,14 @@ class Room {
         double length;
         double breadth;
         double height;
-    
+
     public:
-        double setArea(double len, double bth, double hgt)
-         {
+        void setArea(double len, double bth, double hgt) {
             length = len;
             breadth = bth;
             height = hgt;
         }
-
+        
         double calculateArea() {
             return length * breadth;
         }
@@ -33,5 +32,5 @@ int main() {
 
     myroom.setArea(42.5, 30.8, 19.2);
     cout<<"The Area of my Room is:"<<myroom.calculateArea()<<endl;
-    cout<<"The Volume of my Room is:"<<myroom.calculateVolume()<<endl;
+    cout<<"The Volume of my Room is: "<<myroom.calculateVolume()<<endl;
 }
