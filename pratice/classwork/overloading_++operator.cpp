@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 class count
 {
     private:
@@ -5,8 +8,8 @@ class count
     public:
  void input()
  {
-     cout <<"Enter the value = ";
-     cin >>value;
+     cout<<"Enter the value = ";
+     cin>>value;
  }
 count operator ++()
 {
@@ -25,4 +28,5 @@ int main()
 c1.input();
 c2=++c1;
 c2.display();
+
 }
